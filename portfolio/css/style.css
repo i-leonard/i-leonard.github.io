@@ -1,0 +1,96 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 14px
+	 Font Family = "Times New Roman", serif
+	 Font Color = black
+	 Background: #F3EBE9
+
+H1 Font Size = 50px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   color: #FFFFFF;	(White)
+
+H2: Font Size = 18px
+	Text-Transform: uppercase;
+	Font-Family: cursive, Helvetica, sans-serif;
+
+*/
+
+body{
+	background-image:url(../images/pattern1.png);
+}
+
+H1{
+	font-size: 50px;
+	font-family:arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+H2{
+	font-size: 18px;
+	font-family: cursive, serif;
+	color:#000000;
+	text-transform: uppercase;
+}
+
+#container{
+    width: 700px;
+    margin: 0 auto 0 auto;
+    /* or you can use
+    margin-left: auto;
+    margin-right: auto; 
+    */
+
+}
+
+.header{
+	 padding: 10px;
+	 background-color: #FF6666;
+}
+
+/* if you use just the img src html you can use:
+
+img{
+	max-width:100%;
+}
+*/
+
+.orchid-image{
+	width:700px;
+}
+
+
+.about{
+	background-color: #FFFFFF;
+	padding: 20px 10px 20px 10px;
+}
+
+.underline{
+	text-decoration: underline;	
+}
+
+p{
+	margin: 10px 0px 10px 0px;
+}
+
+.photos{
+	padding-top: 10px;
+}
+.small-img{
+	width:23.5%;
+	border: 1px solid gray;
+	padding:2.5px;
+}
+
+.footer{
+	 height:50px;
+	 font-size: 12px;
+	 text-align: right;
+	 padding: 10px;
+	 background-color: #FF6666;
+	 color:white;
+}
+
